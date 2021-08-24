@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Usage
 
 ```
-git clone https://github.com/priyambanerjee89/email-address-input.git
+git clone https://github.com/priyambanerjee89/recipient-field.git
+cd recipient-field
 yarn install
 yarn start
 ```
