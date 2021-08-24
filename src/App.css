@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  font-size: 14px;
+}
+
+h1,
+h2 {
+  font-family: Lato;
+}
+.select-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  background-color: white;
+  border-color: lightgray;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.entered-email {
+  display: flex;
+  padding: 2px 8px;
+  margin: 8px;
+  font-weight: bold;
+}
+
+.entered-email:hover {
+  border-color: transparent;
+  background-color: lightgray;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.entered-email .close-icon {
+  margin-left: 6px;
+}
+
+.entered-email .close-icon:hover {
+  cursor: pointer;
+}
+
+.entered-email.invalid,
+.entered-email.invalid:hover {
+  background-color: pink;
+  border-radius: 4px;
+}
+
+.saved-emails span {
+  padding: 8px 0;
+}
+.saved-emails span:hover {
+  background: aliceblue;
+}
+.select-container input {
+  border: 0px;
+  outline: 0px;
+}
+
+.saved-emails {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-height: 60vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  border-color: rgb(204, 204, 204);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.select-container,
+.saved-emails {
+  max-width: 400px;
+  box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 10%);
+}
