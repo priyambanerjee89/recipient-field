@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ```
 git clone https://github.com/priyambanerjee89/email-address-input.git
-npm install
+yarn install
 yarn start
 ```
 
@@ -25,12 +25,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 5. Add unit tests.
 
-6. Remove placeholder text once an email is entered.
+6. Fix linting. I added eslint but linting doesn't pass because of missing typings.
 
-7. Fix linting. I added eslint but linting doesn't pass because of missing typings.
+7. JS is not as DRY as it could be. There is repeated code that I could extract into methods. Same with CSS - could extract repeated css values like spacing and colors to css vars. All of the css is in one file - App.css - would break this up per component.
 
-8. JS is not as DRY as it could be. There is repeated code that I could extract into methods. Same with CSS - could extract repeated css values like spacing and colors to css vars. All of the css is in one file - App.css - would break this up per component.
+8. Extract state logic from App.tsx to custom hook.
 
-9. Extract state logic from App.tsx to custom hook.
-
-10. Some dependencies listed in package.json should be devDependencies.
+9. Some dependencies listed in package.json should be devDependencies.
