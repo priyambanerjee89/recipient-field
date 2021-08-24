@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Usage
 
-### `git clone https://github.com/priyambanerjee89/email-address-input.git`
-
-### `yarn start `
+`git clone https://github.com/priyambanerjee89/email-address-input.git`
+`npm install`
+`yarn start `
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
