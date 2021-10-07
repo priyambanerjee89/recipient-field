@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Time-boxed to 4 hrs as instructed. These are the things I would have worked on if there was more time.
 
-1. Style components to look exactly as provided Figma.
+1. Style components to look exactly as provided prototypes.
 
 2. Remove selected email from autocomplete dropdown/add email back to dropdown if deleted from input.
 
